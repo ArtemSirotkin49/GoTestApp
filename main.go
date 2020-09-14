@@ -36,6 +36,10 @@ func getRedisAddress() string {
 	return os.Args[1] + ":" + os.Args[2]
 }
 
+func summ(x, y int) int {
+	return x + y
+}
+
 //Send response to a client with one property
 func sendResponse(w http.ResponseWriter, returnType, property, value string, number int) {
 	if returnType == "string" {
