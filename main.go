@@ -36,6 +36,10 @@ func getRedisAddress() string {
 	return os.Args[1] + ":" + os.Args[2]
 }
 
+func min() int {
+	return 1
+}
+
 func summ(x, y int) int {
 	return x + y
 }
