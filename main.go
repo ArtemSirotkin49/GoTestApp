@@ -40,7 +40,7 @@ func min() int {
 	return 1
 }
 
-func newFunc() int {
+func newFunc2() int {
 	return 24
 }
 
