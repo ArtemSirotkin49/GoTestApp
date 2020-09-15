@@ -40,6 +40,10 @@ func min() int {
 	return 1
 }
 
+func newFunc() int {
+	return 24
+}
+
 func summ(x, y int) int {
 	return x + y
 }
